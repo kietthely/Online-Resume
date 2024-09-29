@@ -3,38 +3,70 @@
   <head>
     <title>My Resume</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ 
   </head>
   <body>
-    <!-- HERO SECTION -->
     <div class="nav-bar">
-      <div class="nav-item">Resume</div>
-      <div class="nav-item">About</div>
-      <div class="nav-item">Contact</div>
+      <div class="nav-item"><a href="#about-section">Resume</a></div>
+      <div class="nav-item"><a href="#about-section">About</a></div>
+      <div class="nav-item"><a href="#contact-section">Contact</a></div>
     </div>
-    <section class="hero-section">
-      <div class="intro">
-        Hey! I'm Kiet.<span class="intro-role"></span>
-          A recent graduate Software Developer</span
-        >
-      </div>
-      <div class="background">
-        Hands-on experience with multiple Agile team projects, specializing in
-        React.js, Node.js, and PostgreSQL
-      </div>
-      <img class="img-graduate" src="assets/graduate-avt.jpg"  alt="my graduate avatar">
-      <button class="btn" id="download-cv">Download CV</button>
-    </section>
-    <section class="projects-section">
-
-    </section>
-    <section class="about-section">
-
-      <!--  my interests-->
-    </section>
-    <section class="contact-section">
-      <!-- Linkedin, Github and email-->
-    </section>
     
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="intro">
+          Hey! I'm Kiet.<span class="intro-role"></span>
+            A recent graduate Software Developer</span
+          >
+        </div>
+        <div class="background">
+          Hands-on experience with multiple Agile team projects, specializing in
+          React.js, Node.js, and PostgreSQL
+        </div>
+        <button class="btn" id="download-cv">Download CV</button>
+    
+      </div>
+      <div class="img-graduate"><img src="assets/graduate-avt.jpg"  alt="my graduate avatar"></div>
+      
+      </section>
+     <div class="card">
+      <h2>Animate</h2>
+      <p>some texts</p>
+     </div>
+    <section id="projects-section">
+      <h1>My Projects</h1>
+      
+      <p>Program Roadmap</p>
+      <p>Convert XML program details file into a 3D interactive roadmap website</p>
+      <button>More</button>
+      <p>SGV Website</p>
+      <p>Create a functional restaurant website with multi-location support, seat reservation and banquet features</p>
+      <button>More</button>
+      <p>Amazon Orders</p>
+      <p>Create a shopping website with order placement and visual report generation features</p>
+      <button>More</button>
+    </section>
+    <section id="about-section">
+      <h1>About Me</h1>
+      <p class="about-me">Passionate Graduate Web Developer with hands-on experience in leading and collaborating on diverse projects. Proficient in modern web technologies, including React.js, HTML5, CSS3, TypeScript, JavaScript, SQL, PostgreSQL, and Node.js. Adept at working in Agile environments, with a strong commitment to delivering high-quality, scalable solutions.</p>
+
+    </section>
+    <section id="contact-section">
+      <h1>Contact Me</h1>
+      <!-- Linkedin, Github and email-->
+      <a href="https://www.linkedin.com/in/sam-ly-61691a238/" target="_blank">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://github.com/kietthely" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      
+      <a href="https://www.facebook.com/profile.php?id=100028321744061" target="_blank">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+    </section>
     
     <footer>
       <p>© 2024 The Kiet Ly</p>

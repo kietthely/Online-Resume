@@ -12,3 +12,54 @@ img {
   width: 200px;
   height: auto;
 }
+a {
+  text-decoration: none;
+}
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 50px;
+  background-color: #112d4e;
+  color: white;
+}
+.nav-bar > .nav-item {
+  margin-left: 10px;
+}
+.nav-item:hover {
+}
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: green;
+  z-index: -3;
+}
+.img-graduate {
+  position: relative;
+  z-index: 1; /* Ensure the image is above the pseudo-element */
+}
+.img-graduate > img {
+  border-radius: 20px;
+}
+
+.img-graduate::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: red;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  padding: 3px;
+  translate: -50% -50%;
+}
+
+.projects-section {
+}
+
+.about-section {
+}
+.contact-section {
+}
