@@ -37,8 +37,9 @@ a {
   font-size: 1.5em;
 }
 .hero-container {
-  float: left;
+  margin-right: 50px;
 }
+
 .carousel-item {
   background-color: black;
   display: flex;
@@ -102,4 +103,9 @@ a {
 .about-section {
 }
 .contact-section {
+}
+@media (min-width: 992px) {
+  .hero-container {
+    margin-right: 20em;
+  }
 }
