@@ -27,7 +27,7 @@ a {
 }
 .nav-item:hover {
 }
-.hero-section {
+#hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +35,7 @@ a {
   background-color: green;
   z-index: -3;
   font-size: 1.5em;
+  height: 100vh;
 }
 .hero-container {
   margin-right: 50px;
@@ -45,7 +46,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 80vh;
 }
 
 .carousel-item .img {
@@ -58,7 +59,7 @@ a {
   position: relative;
   z-index: 1;
 }
-.img-graduate > .img {
+.img-graduate > img {
   border-radius: 20px;
 }
 @property --angle {
@@ -81,7 +82,7 @@ a {
   z-index: -1;
   padding: 103px 106px;
   translate: -50% -50%;
-  border-radius: 10px;
+  border-radius: 15px;
   animation: 3s spin linear infinite;
 }
 @keyframes spin {
@@ -97,12 +98,15 @@ a {
   opacity: 0.5;
 }
 
-.projects-section {
+#projects-section {
+  height: 100vh;
 }
 
-.about-section {
+#about-section {
+  height: 100vh;
 }
-.contact-section {
+#contact-section {
+  height: 100vh;
 }
 @media (min-width: 992px) {
   .hero-container {
