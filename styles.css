@@ -35,9 +35,21 @@ a {
   background-color: green;
   z-index: -3;
 }
+.carousel-item {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
 .img-graduate {
   position: relative;
-  z-index: 1; /* Ensure the image is above the pseudo-element */
+  z-index: 1;
 }
 .img-graduate > img {
   border-radius: 20px;
